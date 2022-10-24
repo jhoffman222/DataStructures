@@ -1,0 +1,7 @@
+dictionary = {1: 'Programming', 2: 'is', 3: 'fun'}
+print("\nint keys: ")
+print(dictionary)
+ 
+dictionary = {'Oh': 'yea', 1: [2, 4, 6, 8]}
+print("\nnow lets mix keys!:\n")
+print(dictionary)
