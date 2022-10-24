@@ -1,0 +1,21 @@
+
+*************************   Kruskal’s algorithm   ***********************
+
+Kruskal’s algorithm is used to obtain minimum spanning tree and is one of the greedy algorithm
+
+ Kruskal’s algorithm sorts all the edges in increasing order of their edge weights and keeps adding nodes to the tree only if the chosen edge does not form any cycle.
+ Also, it picks the edge with a minimum cost at first and the edge with a maximum cost at last.
+ Hence, you can say that the Kruskal algorithm makes a locally optimal choice, intending to find the global optimal solution.
+ That is why it is called a Greedy Algorithm.
+
+ Kruskal’s Algorithm to generate a minimum spanning tree:
+
+Step 1: Sort all edges in increasing order of their edge weights.
+Step 2: Pick the smallest edge.
+Step 3: Check if the new edge creates a cycle or loop in a spanning tree.
+Step 4: If it doesn’t form the cycle, then include that edge in MST. Otherwise, discard it.
+Step 5: Repeat from step 2 until it includes |V| - 1 edges in MST.
+
+
+Using the steps mentioned above, you will generate a minimum spanning tree structure.
+
